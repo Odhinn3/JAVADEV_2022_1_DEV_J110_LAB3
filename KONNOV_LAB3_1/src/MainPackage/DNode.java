@@ -1,4 +1,5 @@
 package MainPackage;
+
 public class DNode {
     int data;
     DNode next;

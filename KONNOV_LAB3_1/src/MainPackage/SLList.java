@@ -1,4 +1,5 @@
 package MainPackage;
+
 public class SLList {//реализация односвязного списка 
     
     private Node head;//первый элемент списка
@@ -28,7 +29,6 @@ public class SLList {//реализация односвязного списк�
             temp = temp.next;
         }
         temp.next = node;
-
     }
     
     public void addToFront (int data){//добавление элемента в начало списка
@@ -51,7 +51,6 @@ public class SLList {//реализация односвязного списк�
         while (temp.next != null)
             temp = temp.next;
         return temp;
-
     }
     
     public void removeLast(){//удаление последнего элемента

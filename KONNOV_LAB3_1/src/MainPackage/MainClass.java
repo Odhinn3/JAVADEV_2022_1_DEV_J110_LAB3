@@ -17,6 +17,5 @@ public class MainClass {
         list.removeLast();
         list.print();
         list.isEmpty();
-
     }
 }
