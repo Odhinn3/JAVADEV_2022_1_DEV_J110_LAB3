@@ -1,5 +1,4 @@
 package MainPackage;
-
 public class SLList {//реализация односвязного списка 
     
     private Node head;//первый элемент списка

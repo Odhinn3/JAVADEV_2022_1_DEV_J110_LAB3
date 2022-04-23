@@ -1,5 +1,4 @@
 package MainPackage;
-
 public class Node {//элемент списка 
     int data;
     Node next;
