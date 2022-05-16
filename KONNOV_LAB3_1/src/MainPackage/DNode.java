@@ -1,10 +1,10 @@
 package MainPackage;
-public class DNode {
-    int data;
+public class DNode<T> {
+    T data;
     DNode next;
     DNode prev;
 
-    public DNode(int data) {
+    public DNode(T data) {
         this.data = data;
-    } 
+    }
 }

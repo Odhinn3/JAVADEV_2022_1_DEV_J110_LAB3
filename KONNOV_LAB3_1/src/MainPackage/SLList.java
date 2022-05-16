@@ -12,9 +12,10 @@ public class SLList {//реализация односвязного списк�
   
     public void isEmpty(){//проверка списка на пустоту
         if (head == null){
-            System.out.println("List is empty");
+            System.out.println("Single linked list is empty");
+        } else {
+        System.out.println("Single linked list is not empty");
         }
-        System.out.println("List is not empty");
     }
   
     public void addToEnd (int data){//добавление элемента в конец списка
